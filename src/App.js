@@ -13,13 +13,8 @@ export default class App extends React.Component {
     this.state = {
       todos: [
         {
-          task: 'Organize Garage',
+          task: 'keep grinding',
           id: 1528817077286,
-          completed: false
-        },
-        {
-          task: 'Bake Cookies',
-          id: 1528817084358,
           completed: false
         }
       ]
