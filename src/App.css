@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.mainDiv h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.mainDiv button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.mainDiv button:hover {
+  background-color: #0056b3;
+}
+
